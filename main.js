@@ -1,5 +1,5 @@
 const ADMIN_ID = 6643037038;
-const BOT_TOKEN = "BOT_TOKENINGNI_QO'Y";
+const BOT_TOKEN = token;
 const API = `https://api.telegram.org/bot${BOT_TOKEN}`;
 
 export default {
