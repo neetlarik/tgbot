@@ -7,7 +7,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.types import InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
-API_TOKEN = 'TOKENINGNI_BUYERGA_QOY'
+API_TOKEN = '7160875026:AAFqGkoYmr9XqW1zANPU8OxsokmawqkeJ5g'
 ADMIN_ID = 6643037038
 
 logging.basicConfig(level=logging.INFO)
@@ -202,3 +202,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
