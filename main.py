@@ -99,8 +99,8 @@ async def process_address(message: types.Message, state: FSMContext):
     users_db.add(message.from_user.id)
 
     await message.answer(
-        "Регистрация завершена! ✅\n"
-        "Ro‘yxatdan o‘tish yakunlandi! ✅",
+        "Сколько лет вашему ребёнку? И если у вас возникнут какие-либо вопросы, пожалуйста, сообщите мне. ✅\n"
+        "Farzandingiz necha yosh? va Savollarinigiz bo'lsa marhamat ✅",
         reply_markup=ReplyKeyboardRemove()
     )
     await state.clear()
@@ -202,6 +202,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
